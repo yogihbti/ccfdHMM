@@ -3,16 +3,7 @@ Credit Card Fraud Detection using HMM ( Hidden Markow Model)
 
 This project uses HMM (Hidden Markov Model) to recognize fraudulent transactions on credit card.The basic flow of program is mentioned below. 
  
-Training Dataset
-         ||
-         V
-Trained Data Model
-         ||
-         V
-Generation of Probability for New Transaction
-         ||
-         V
-Alarm raised if probability below threshold
+Training Dataset -> Trained Data Model -> Generation of Probability for New Transaction ->Alarm raised if probability below threshold
 
 1.	Training HMM model: While processing the normal card transactions (training dataset), HMM model learns the cardholders spend behavior and adjusts the HMM parameters.
 
